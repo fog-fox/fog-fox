@@ -47,8 +47,6 @@ Photon Fusion 기반 Multiplayer 기능 개발 중
 
 Character · Skill · Item · Progression · Economy 시스템 구현
 
-Repository는 현재 Private이며, 공개용 Portfolio Showcase를 준비하고 있습니다.
-
 <br>
 
 Tactical Shooter Prototype
@@ -64,8 +62,6 @@ Raycast 기반 Shooting / Accuracy / Reload
 Grenade · Smoke Grenade 등 Throwable Weapon
 
 GOAP 라이브러리를 활용한 Enemy AI 구조 실험
-
-현재 프로젝트와 비교하여 구조 개선 및 리팩터링 사례로 정리 예정
 
 <br>
 
@@ -85,17 +81,3 @@ Tar의 Slime 추적 / 공격 동작
 Cage / Wall / Water 상호작용
 
 주요 담당 코드: Assets/SlimeAI/Scripts/
-<!--
-**fog-fox/fog-fox** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
