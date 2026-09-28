@@ -1,8 +1,14 @@
 <div align="center">
-<h2>Hi there 👋</h2>
+<h2> Hi there 👋
+
+I'm Unity Game Developer🎮
+</h2>
+
+
+  
 🐣 저는 거대한 육각형 개발자을 목표로 성장해가는 작은 개발자입니다 🥚
   
-🎲 사람과 사람을 연결하고, 즐거운 시간을 남기고, 가끔은 감동을 전할 수 있는 게임을 만들기 위해 노력하고 있습니다. 🎮
+🎲 사람과 사람을 연결하고, 즐거운 시간을 남기고, 가끔은 감동을 전할 수 있는 게임을 만들기 위해 노력하고 있습니다. 🎲
 
 <h2> 🛠 Tech Stack 🛠 </h2>
 <h3> Game Development Tool
