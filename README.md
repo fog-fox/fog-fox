@@ -1,4 +1,4 @@
-<h2 align="center">
+<div align="center">
 ## Hi there 👋
 
 
@@ -9,7 +9,7 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 ![Drawio](https://img.shields.io/badge/drawio-%23F08705.svg?style=for-the-badge&logo=diagrams.net&logoColor=white)
-</h2>
+</div>
 
 <!--
 **fog-fox/fog-fox** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
