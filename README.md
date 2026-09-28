@@ -1,5 +1,7 @@
 ## Hi there 👋
-<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/>
+![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![C#](https://shields.io)
 <!--
 **fog-fox/fog-fox** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
