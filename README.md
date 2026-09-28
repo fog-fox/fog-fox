@@ -1,5 +1,5 @@
 <div align="center">
-## Hi there 👋
+<h2>Hi there 👋 </h2>
 
 
 🛠 Tech Stack 🛠 
