@@ -21,6 +21,7 @@ I'm Unity Game Developer🎮
 ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Photon](https://img.shields.io/badge/photon-%23004480.svg?style=for-the-badge&logo=photon&logoColor=white)
 
 Game Design Tool
 
