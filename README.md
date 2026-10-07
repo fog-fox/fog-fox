@@ -29,3 +29,140 @@ Game Design Tool
 ![Drawio](https://img.shields.io/badge/drawio-%23F08705.svg?style=for-the-badge&logo=diagrams.net&logoColor=white)
 </h3>
 </div>
+
+---
+
+## Technical Focus
+
+### System Architecture
+
+공통 동작을 추상화하고 데이터와 Runtime 로직을 분리하여  
+새로운 기능을 기존 구조 안에서 확장할 수 있도록 설계하는 데 관심이 있습니다.
+
+### Gameplay Programming
+
+캐릭터, 전투, 스킬, AI, 상호작용, 절차 생성, 배치 시스템 등  
+실제 플레이와 직접 연결되는 Gameplay System을 주로 구현하고 있습니다.
+
+### Optimization & Robustness
+
+필요한 상태만 갱신하거나 불필요한 연산을 줄이는 방식뿐 아니라  
+저장 데이터 복구, Placement 검증, Runtime 상태 분리와 같이  
+예외 상황에서도 안정적으로 동작하는 구조를 중요하게 생각합니다.
+
+---
+
+# Featured Projects
+
+## Project Expedition
+
+[**Project-Expedition-Showcase →**](https://github.com/fog-fox/Project-Expedition-Showcase)
+
+공통 실행 구조와 데이터 조합을 중심으로 설계한 게임 시스템 Showcase입니다.
+
+**Key Features**
+
+- Data-Driven Action / Skill Framework
+- ScriptableObject와 Runtime Data 분리
+- Skill Upgrade / Status / Trigger System
+- Procedural Dungeon Generation
+- Condition / Sequence / Step 기반 Monster Attack System
+- Save Data Integrity & Recovery
+- Photon Fusion 기반 Host-Authoritative Multiplayer
+
+```text
+Skill / Action Definition
+          ↓
+    Runtime Data
+          ↓
+Upgrade / Equipment / Passive
+          ↓
+   Final Gameplay Action
+```
+
+---
+
+## Project-T
+
+[**Project-T-Showcase →**](https://github.com/fog-fox/Project-T-Showcase)
+
+2D Top-Down Tactical Shooter에서 구현한 시야와 전투 시스템 Showcase입니다.
+
+**Key Features**
+
+- 근거리 원형 + 전방 원뿔형 Fog of War
+- Wall / Smoke 기반 Line of Sight
+- Unexplored / Explored / Visible 상태 관리
+- 변경된 Cell만 갱신하는 Visibility Update
+- Fog of War와 Smoke System의 상호작용
+- 이동·조준·반동 상태를 반영한 Shooting System
+
+```text
+Player Vision
+     ↓
+Line of Sight
+  ├─ Wall
+  └─ Smoke
+     ↓
+Visibility State
+```
+
+---
+
+## Travelling
+
+[**Travelling-Showcase →**](https://github.com/fog-fox/Travelling-Showcase)
+
+Grid 기반 가구 이동 및 배치 시스템 Showcase입니다.
+
+**Key Features**
+
+- 크기가 다른 가구의 Grid Placement
+- 90° Rotation 및 점유 Cell 재계산
+- Grid + Physics 기반 Placement Validation
+- 가구 위에 다른 가구를 배치하는 Sub Grid
+- 책상과 의자를 자연스럽게 연결하는 Chair Snap
+- Parent / Child 구조를 이용한 그룹 이동
+- Preview / Commit 분리를 이용한 배치 취소 및 상태 복구
+
+```text
+Furniture
+├─ Floor Grid
+├─ Sub Grid
+└─ Chair Point
+       ↓
+Placement Validation
+       ↓
+Commit / Restore
+```
+
+---
+
+## AdventureGame
+
+[**AdventureGame-Showcase →**](https://github.com/fog-fox/AdventureGame-Showcase)
+
+JSON 기반 대화와 선택지를 실제 게임 상호작용으로 연결한 시스템 Showcase입니다.
+
+**Key Features**
+
+- JSON 기반 Dialogue Data
+- Runtime Dialogue / Choice UI 생성
+- Typewriter Dialogue
+- 반복 상호작용에 따른 Dialogue Progression
+- Command Pattern 기반 Choice Result 처리
+- 선택 결과와 실제 Game Object 상태 연결
+
+```text
+Dialogue JSON
+      ↓
+DialogueManager
+      ↓
+ChoiceManager
+      ↓
+CommandFactory
+      ↓
+Game Interaction
+```
+
+---
