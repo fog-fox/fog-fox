@@ -30,28 +30,6 @@ Game Design Tool
 </h3>
 </div>
 
----
-
-## Technical Focus
-
-### System Architecture
-
-공통 동작을 추상화하고 데이터와 Runtime 로직을 분리하여  
-새로운 기능을 기존 구조 안에서 확장할 수 있도록 설계하는 데 관심이 있습니다.
-
-### Gameplay Programming
-
-캐릭터, 전투, 스킬, AI, 상호작용, 절차 생성, 배치 시스템 등  
-실제 플레이와 직접 연결되는 Gameplay System을 주로 구현하고 있습니다.
-
-### Optimization & Robustness
-
-필요한 상태만 갱신하거나 불필요한 연산을 줄이는 방식뿐 아니라  
-저장 데이터 복구, Placement 검증, Runtime 상태 분리와 같이  
-예외 상황에서도 안정적으로 동작하는 구조를 중요하게 생각합니다.
-
----
-
 # Featured Projects
 
 ## Project Expedition
