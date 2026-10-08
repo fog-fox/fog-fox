@@ -1,6 +1,3 @@
-<div align="center">
-
-![header](https://capsule-render.vercel.app/api?type=checkered&&fontColor=e0ffff&height=100&section=header&text=Fox's%20GitHub&fontSize=50)
 
 <h2> Hi there 👋
 
